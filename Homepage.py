@@ -20,7 +20,7 @@ def home_content():
     st.write('您的需求，我們都聽到了')
 
     st.write('藥師通通都可以耐心為您解答')
-    st.write('有了這個互動式數位工具之後，您可以用更簡單的方式來瞭解這些問題')
+    st.header('有了這個互動式數位工具之後，您可以用更簡單的方式來瞭解這些問題')
     
 def home_content_en():
     """
