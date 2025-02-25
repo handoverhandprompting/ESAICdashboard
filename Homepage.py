@@ -19,7 +19,7 @@ def home_content():
     st.write('您想要看懂自己的抽血報告嗎？')
     st.write('您希望更瞭解自己目前心臟衰竭的情況嗎？')
     
-    st.header(('您的需求，我們都聽到了')
+    st.header('您的需求，我們都聽到了')
     st.header('藥師通通都可以耐心為您解答')
               
     st.write('有了這個互動式數位工具之後')
