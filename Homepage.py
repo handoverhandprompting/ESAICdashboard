@@ -12,7 +12,7 @@ def home_content():
     Type your CHINESE homepage here
     """
     st.header('國立臺灣大學醫學院附設醫院 心臟衰竭藥事照護服務')
-    st.write('歡迎使用 一節課 ESAIC 互動式數位工具
+    st.write('歡迎使用 一節課 互動式數位工具
 
 您知道為什麼要吃這些藥嗎
 您對於藥品有很多疑問嗎
