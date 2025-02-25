@@ -30,7 +30,7 @@ def home_content_en():
      Type your ENGLISH homepage here
     """
     st.header('Welcome to the ESAIC Dashboards')
-    st.header('What are the ESAIC Dashboards?)
+    st.header('What are the ESAIC Dashboards?')
     st.write('The ESAIC dashboards are interactive digital tools developed using Streamlit, based on predictive models constructed through Cox's proportional-hazards regression. These dashboards are designed to support healthcare professionals in guiding patients through sacubitril/valsartan (S/V) therapy by providing visual representations of risk factors and survival probabilities.
 
 This website incorporates two distinct dashboards: one tailored for patients about to initiate S/V therapy and another for those continuing treatment. The models underpinning these dashboards were developed using electronic medical record data from patients with heart failure with reduced ejection fraction (HFrEF) treated at National Taiwan University Hospital (NTUH), a leading tertiary medical center in Taipei, Taiwan.
