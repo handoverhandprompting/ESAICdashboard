@@ -31,7 +31,7 @@ def home_content_en():
     """
     st.header('Welcome to the ESAIC Dashboards')
     st.header('What are the ESAIC Dashboards?')
-    st.write('The ESAIC dashboards are interactive digital tools developed using Streamlit, based on predictive models constructed through Cox's proportional-hazards regression.') 
+    st.write('The ESAIC dashboards are interactive digital tools developed using Streamlit, based on predictive models constructed through Cox's proportional hazards regression.') 
   
 
 
