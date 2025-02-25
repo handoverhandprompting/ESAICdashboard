@@ -42,7 +42,8 @@ def home_content_en():
     st.write('This tool should not be interpreted as guaranteeing the safety, appropriateness, or necessity of any specific treatment strategy or clinical outcome.')
     st.write('All site content is subject to modification without prior notice.')
     st.write('For inquiries, please contact us at: wantsenghsu@ntu.edu.tw.')
-
+    st.header('Acknowledgments')
+    st.write('The study that led to the development of these models was approved by the Research Ethics Committee of NTUH (Approval No. 202001049RINB), with Dr. Wan-Tseng Hsu serving as the principal investigator. Data collection and statistical analysis were conducted by Tung-Chun Russell Chien and Yao-Wei Chang, with additional statistical consultation provided by Dr. Fu-Chang Hu and the International-Harvard Statistical Consulting Company. The interactive visualization dashboards were conceptualized and built by Tung-Chun Russell Chien. The research team declares no conflicts of interest.')
 
 def run():
     st.set_page_config(layout="wide")
