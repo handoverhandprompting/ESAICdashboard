@@ -32,23 +32,8 @@ def home_content_en():
     st.header('Welcome to the ESAIC Dashboards')
     st.header('What are the ESAIC Dashboards?')
     st.write('The ESAIC dashboards are interactive digital tools developed using Streamlit, 
-    based on predictive models constructed through Cox's proportional-hazards regression. 
-    These dashboards are designed to support healthcare professionals in guiding patients 
-    through sacubitril/valsartan (S/V) therapy by providing visual representations of risk factors and survival probabilities. 
-    This website incorporates two distinct dashboards: one tailored for patients about to initiate S/V therapy and another for 
-    those continuing treatment. The models underpinning these dashboards were developed using electronic medical record data from 
-    patients with heart failure with reduced ejection fraction (HFrEF) treated at National Taiwan University Hospital (NTUH), 
-    a leading tertiary medical center in Taipei, Taiwan. The predictive model for S/V initiation was built using a
-    stepwise variable selection approach within a Cox's proportional-hazards model, incorporating time-dependent covariates 
-    to capture dynamic changes over time. 14 key covariates were identified as significant predictors. 
-    The predictive model for S/V continuation was developed using similar methodologies, 
-    identifying 20 key covariates. We hypothesize that these dashboards, by presenting actionable and modifiable risk factors derived 
-    from our predictive models, will enhance patient understanding of the benefits and risks associated with S/V therapy. 
-    By offering an intuitive format displaying hazard ratios and survival curves across different clinical scenarios 
-    based on patient-specific data, the dashboards aim to empower patients to take a proactive role in their treatment 
-    journey and improve adherence to prescribed regimens. This digital platform is designed to facilitate a clearer 
-    understanding of treatment benefits and risks through a visual format, assisting both patients and healthcare 
-    practitioners in optimizing patient education.')
+    based on predictive models constructed through Cox's proportional-hazards regression.') 
+  
 
 
 def run():
