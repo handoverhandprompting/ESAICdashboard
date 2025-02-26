@@ -166,7 +166,7 @@ def prediction_view():
         with st.container():
             col1, col1_1, space, col2, col3 = st.columns([3, 6, 3, 3, 6])
             with col1:
-                st.write(f'###### 血中尿素氮(腎功能 ######')
+                st.write(f'###### 血中尿素氮(腎功能) ######')
                 bun_none = st.checkbox('None', key='bun_none_pred', value=True)
             with col1_1:
                 bun = st.number_input('(mg/dL)', disabled=bun_none, help='BUN: Blood Urea Nitrogen', value=None, key='bun_pred', format="%0.2f")
