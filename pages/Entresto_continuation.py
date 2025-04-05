@@ -315,11 +315,11 @@ def second_page_en():
         with st.container():
             title_col1, title_col2 = st.columns(2)
             with title_col1:
-                st.write('###### Acute change:\n######maximum increase of BUN (mg/dL) in the past 1 month ######')
+                st.write('###### Acute change:\nmaximum increase of BUN (mg/dL) in the past 1 month')
             with title_col2:
                 bun_col2_sub1, bun_col2_sub2 = st.columns([5, 2])
                 with bun_col2_sub1:
-                    st.write('###### Chronic change:\n######maximum increase of BUN (mg/dL) in the past 9 months ######')
+                    st.write('###### Chronic change:\nmaximum increase of BUN (mg/dL) in the past 9 months')
                 with bun_col2_sub2:
                     if st.button('sync', key='1mon_sync'):
                         st.session_state['_sync1n9'] = True
