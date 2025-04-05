@@ -72,13 +72,13 @@ def second_page():
 
         egfr_decrease_display_list = []
         egfr_decrease_display0 = st.number_input('###### 過去三個月的最大腎絲球濾過率下降量(腎功能) ######', step=0.01,
-                                                 help='Maximum PERCENTAGE decrease of eGFR (mL/min/1.73 m2) in the past 3 months, Enter estimated glomerular filtration rates in mL/min/1.73 m2 which will be automatically converted to a percentage')
+                                                 help='Maximum PERCENTAGE decrease of eGFR (mL/min/1.73 m\u00b2) in the past 3 months, Enter estimated glomerular filtration rates in mL/min/1.73 m\u00b2 which will be automatically converted to a percentage')
         if egfr_decrease_display0:
             egfr_decrease_display_list += [egfr_decrease_display0]
             i = 1
             while True:
                 if ('egfr_decrease_display' + str(i - 1)) in locals() and locals()['egfr_decrease_display' + str(i - 1)] is not None:
-                    locals()['egfr_decrease_display' + str(i)] = st.number_input('Maximum PERCENTAGE decrease of eGFR (mL/min/1.73 m2) in the past 3 months', key=('e' + str(i)), value=None, label_visibility='hidden')
+                    locals()['egfr_decrease_display' + str(i)] = st.number_input('Maximum PERCENTAGE decrease of eGFR (mL/min/1.73 m\u00b2) in the past 3 months', key=('e' + str(i)), value=None, label_visibility='hidden')
                     if locals()['egfr_decrease_display' + str(i)]:
                         egfr_decrease_display_list += [locals()['egfr_decrease_display' + str(i)]]
                     else:
@@ -292,14 +292,14 @@ def second_page_en():
         st.divider()
 
         egfr_decrease_display_list = []
-        egfr_decrease_display0 = st.number_input('###### Maximum PERCENTAGE decrease of eGFR (mL/min/1.73 m2) in the past 3 months ######', step=0.01,
-                                                 help='Enter estimated glomerular filtration rates in mL/min/1.73 m2 which will be automatically converted to a percentage')
+        egfr_decrease_display0 = st.number_input('###### Maximum PERCENTAGE decrease of eGFR (mL/min/1.73 m\u00b2) in the past 3 months ######', step=0.01,
+                                                 help='Enter estimated glomerular filtration rates in mL/min/1.73 m\u00b2 which will be automatically converted to a percentage')
         if egfr_decrease_display0:
             egfr_decrease_display_list += [egfr_decrease_display0]
             i = 1
             while True:
                 if ('egfr_decrease_display' + str(i - 1)) in locals() and locals()['egfr_decrease_display' + str(i - 1)] is not None:
-                    locals()['egfr_decrease_display' + str(i)] = st.number_input('Maximum PERCENTAGE decrease of eGFR (mL/min/1.73 m2) in the past 3 months', key=('e' + str(i)), value=None, label_visibility='hidden')
+                    locals()['egfr_decrease_display' + str(i)] = st.number_input('Maximum PERCENTAGE decrease of eGFR (mL/min/1.73 m\u00b2) in the past 3 months', key=('e' + str(i)), value=None, label_visibility='hidden')
                     if locals()['egfr_decrease_display' + str(i)]:
                         egfr_decrease_display_list += [locals()['egfr_decrease_display' + str(i)]]
                     else:
