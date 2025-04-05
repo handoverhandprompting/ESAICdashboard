@@ -163,13 +163,13 @@ def second_page():
         st.divider()
 
         lvmi_list = []
-        lvmi0 = st.number_input('###### 平均左心室重量指數 (g/m2) ######', step=0.01, help='Average LVMI: Left ventricular mass index', key='lv0')
+        lvmi0 = st.number_input('###### 平均左心室重量指數 (g/m\u00b2) ######', step=0.01, help='Average LVMI: Left ventricular mass index', key='lv0')
         if lvmi0:
             lvmi_list += [lvmi0]
             i = 1
             while True:
                 if ('lvmi' + str(i - 1)) in locals() and locals()['lvmi' + str(i - 1)] is not None:
-                    locals()['lvmi' + str(i)] = st.number_input('Average LVMI (g/m2)', key=('lv' + str(i)), value=None, label_visibility='hidden')
+                    locals()['lvmi' + str(i)] = st.number_input('Average LVMI (g/m\u00b2)', key=('lv' + str(i)), value=None, label_visibility='hidden')
                     if locals()['lvmi' + str(i)]:
                         levf_list += [locals()['lvmi' + str(i)]]
                     else:
@@ -385,13 +385,13 @@ def second_page_en():
         st.divider()
 
         lvmi_list = []
-        lvmi0 = st.number_input('###### Average LVMI (g/m2) ######', step=0.01, help='Left ventricular mass index', key='lv0')
+        lvmi0 = st.number_input('###### Average LVMI (g/m\u00b2) ######', step=0.01, help='Left ventricular mass index', key='lv0')
         if lvmi0:
             lvmi_list += [lvmi0]
             i = 1
             while True:
                 if ('lvmi' + str(i - 1)) in locals() and locals()['lvmi' + str(i - 1)] is not None:
-                    locals()['lvmi' + str(i)] = st.number_input('Average LVMI (g/m2)', key=('lv' + str(i)), value=None, label_visibility='hidden')
+                    locals()['lvmi' + str(i)] = st.number_input('Average LVMI (g/m\u00b2)', key=('lv' + str(i)), value=None, label_visibility='hidden')
                     if locals()['lvmi' + str(i)]:
                         levf_list += [locals()['lvmi' + str(i)]]
                     else:
